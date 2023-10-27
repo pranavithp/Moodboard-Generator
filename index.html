@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Board Generator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://use.typekit.net/ngw4zcc.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ngw4zcc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+
+
+<body>
+    <header>
+        <h3 class="logo">Devote</h3>
+        <h1>Mood Board Generator</h1>
+    </header>
+
+    <div class="wrapper">
+
+        <div class="container">
+            <div class="grid">
+                <div class="grid-item a"></div>
+                <div class="grid-item b "></div>
+                <div class="grid-item c "></div>
+                <div class="grid-item d"></div>
+                <div class="grid-item e"></div>
+                <div class="grid-item f"></div>
+
+            
+            
+                <div class="color">
+                    <input type="color" id="colorPicker1" value="#f54242" />
+                    <label for="color">Choose</label>
+                </div>
+                <div class="color">
+                    <input type="color" id="colorPicker2" value="#f5f542" />
+                    <label for="color">Choose</label>
+                </div>
+                <div class="color">
+                    <input type="color" id="colorPicker3" value="#54f542" />
+                    <label for="color">Choose</label>
+                </div>
+                <div class="color">
+                    <input type="color" id="colorPicker4" value="#0750fa" />
+                    <label for="color">Choose</label>
+                </div>
+              
+
+            </div>
+
+        </div>
+
+            <div class="input_cntr">
+
+                <div class="upload_wrapper">
+                    <!-- <div class="error-message" style="color: red;"></div> -->
+
+                    <label for="file-upload" class="custom-file-upload">
+                        Browse
+                    </label>
+
+                    <input type="file" id="file-upload" accept=".png, .jpg, .jpeg" multiple>
+                    <h3>Choose your mood board images</h3>
+                </div>
+                <button id="button">Export</button>
+                <div class="error-message"></div>
+            </div>
+
+      
+    </div>
+</body>
+
+<script src="js/java.js"></script>
+
+</html>
